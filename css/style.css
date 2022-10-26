@@ -1,0 +1,25 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* COMMON */
+.container{
+    max-width: 62.5rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* MAIN */
+.item{
+    display: none;
+    position: relative;
+}
+img{
+    width: 43.75rem;
+    height: 18.75rem;
+    object-fit: cover;
+}
