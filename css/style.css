@@ -14,7 +14,7 @@
     margin: auto;
 }
 /* MAIN */
-div{
+.item{
     /* display: none; */
     position: relative;
     width: 43.75rem;
