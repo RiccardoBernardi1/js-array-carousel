@@ -24,6 +24,23 @@
     display: block;
 }
 img{
-    height: 100%;
+    max-height: 100%;
+    min-width: 100%;
     object-fit: cover;
+}
+.btn{
+    position: absolute;
+    min-height: 1.5625rem;
+    min-width: 1.5625rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5625rem;
+    translate: -50%;
+    left: 50%;
+}
+.btn-up{
+    top: .5rem;
+}
+.btn-down{
+    bottom: .5rem;
 }
