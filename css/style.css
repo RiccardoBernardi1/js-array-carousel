@@ -15,10 +15,13 @@
 }
 /* MAIN */
 .item{
-    /* display: none; */
+    display: none;
     position: relative;
     width: 43.75rem;
     height: 18.75rem;
+}
+.show.item{
+    display: block;
 }
 img{
     height: 100%;
